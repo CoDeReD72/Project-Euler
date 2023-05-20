@@ -1,0 +1,1 @@
+/Users/declangallagher/Documents/githubRepos/Project-Euler/1\ -\ Multiples\ of\ 3\ and\ 5/rust/target/debug/rust: /Users/declangallagher/Documents/githubRepos/Project-Euler/1\ -\ Multiples\ of\ 3\ and\ 5/rust/src/main.rs

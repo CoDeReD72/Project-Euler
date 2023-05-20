@@ -1,0 +1,78 @@
+# Rust
+
+# Compiled output
+/target/
+
+# Dependency directories
+/dependencies/
+/vendor/
+
+# Cargo lock file
+Cargo.lock
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
+
+# Generated documentation
+/target/doc/
+
+# Generated test coverage reports
+/target/debug/
+/target/release/
+
+# Build artifacts
+*.dSYM/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Environment file
+.env
+
+# JavaScript
+
+# Node.js dependencies
+/node_modules/
+
+# Mac-specific files
+
+# macOS folder attributes
+.DS_Store
+
+# TextMate project file
+/*.tmproj
+
+# Xcode workspace
+*.xcworkspace
+
+# Xcode project
+*.xcodeproj
+
+# Xcode Schemes
+*.xcuserdatad/
+
+# macOS build folder
+/build/
+
+# Mac App Store files
+/*.p12
+/*.pem
+/*.cer
+
+# Mac OS X crash logs
+*.crash
+
+# Mac user-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+._*
+
+# Thumbnails
+._*
