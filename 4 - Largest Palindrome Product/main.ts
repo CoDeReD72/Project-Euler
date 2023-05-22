@@ -1,10 +1,10 @@
-function largestPalindromeProduct(n) {
-  let upperBound = Math.pow(10, n); // Set the upper bound for the numbers to consider
-  let largestPalindrome = 0; // Variable to store the largest palindrome product
+function largestPalindromeProduct(n : number) : number {
+  let upperBound : number = Math.pow(10, n); // Set the upper bound for the numbers to consider
+  let largestPalindrome : number = 0; // Variable to store the largest palindrome product
 
   for (let i = 1; i < upperBound; i++) {
     for (let j = 1; j <= i; j++) {
-      let product = i * j; // Calculate the product of the two factors
+      let product : number = i * j; // Calculate the product of the two factors
 
       // Check if the product is a palindrome and greater than the largest palindrome found so far
       if (isPalindrome(product) && product > largestPalindrome) {
@@ -16,11 +16,11 @@ function largestPalindromeProduct(n) {
   return largestPalindrome; // Return the largest palindrome product
 }
 
-function isPalindrome(n) {
-  const str = n.toString(); // Convert the number to a string
-  const length = str.length; // Get the length of the string
+function isPalindrome(n : number) : boolean {
+  const str : string = n.toString(); // Convert the number to a string
+  const length : number = str.length; // Get the length of the string
 
-  for (let i = 0; i < length / 2; i++) {
+  for (let i : number = 0; i < length / 2; i++) {
     // Compare characters from both ends of the string
     if (str[i] !== str[length - 1 - i]) {
       return false; // If a mismatch is found, it's not a palindrome
